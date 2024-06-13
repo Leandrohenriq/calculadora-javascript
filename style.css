@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(221, 220, 220);
+}
+
+
+.calculadora{
+    border: 10px solid black;
+    border-radius: 10px;
+    width: 25%;
+    min-width: 300px;
+    height: 450px;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+input#num1, input#num2{
+    width: 70%;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1em;
+}
+
+.simbolos{
+    width: 40%;
+    margin: 0 auto;
+}
+
+input#adicao, input#subtracao, input#multiplicacao, input#divisao{
+    width: 30px;
+    height: 20px;
+    margin: 15px;
+}
+
+b{
+    font-size: 30px;
+}
+
+h2{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#botao{
+    width: 40%;
+    height: 40px;
+}
