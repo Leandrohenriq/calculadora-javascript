@@ -44,18 +44,17 @@ input#num1, input#num2{
 }
 
 input#adicao, input#subtracao, input#multiplicacao, input#divisao{
-    width: 30px;
-    height: 20px;
-    margin: 15px;
+    width: 20%;
+    margin: 12px;
 }
 
 b{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 h2{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #botao{
